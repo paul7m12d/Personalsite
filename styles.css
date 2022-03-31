@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+}
+
+#title{
+
+  text-align: center;
+  color: linear-gradient("red","yellow");
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  background-image: linear-gradient(#00B4D8,#CAF0F8,#A773C3);
+  padding: 1.1em 0 1em;
+  margin:0;
+
+}
+h1,h3{
+  font-family: 'Satisfy', cursive;
+
+  background: linear-gradient(
+                          to right, #000, #D45079
+                          );
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+
+.sky{
+    width:124px;
+      position: relative;
+
+}
+.sky2{
+  position: relative;
+  right: 390px;
+  top: 80px;
+
+}
+
+.sky1{
+
+  position: relative;
+  right: -360px;
+  top: 385px;
+}
+.guitar{
+  position :relative;
+  width: 13rem;
+  right: -320px;
+  top: -225px;
+}
+p{
+  color: grey;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+
+
+}
+.aboutMe{
+  text-align: center;
+  background-image: linear-gradient(#CAF0F8,#CAF0F8);
+  padding: 3rem;
+  margin: 0px;
+  font-size: 2rem;
+}
+
+.laptop{
+    position :relative;
+    width: 13rem;
+    right: -320px;
+    top: -225px;
+  }
+
+
+.contact{
+  background-image: linear-gradient(#A773C3,#CAF0F8);
+  margin: 0px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.social-icons{
+  width:40px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.social-icons:hover{
+  background-color: #CAF0F8;
+}
+/* if screen is less than 1000px */
+@media (max-width: 1000px) {
+
+   .guitar{
+
+    position: static;
+    width: 10rem;
+  }
+  .sky1{
+    top: 578px;
+    right: -60px;
+    z-index: 0;
+
+  }
+  .sky2{
+    top: 30px;
+      left: -210px;
+
+  }
+
+  #title{
+    padding: 1.5em 0 1.6em;
+  }
+  .laptop{
+    position :relative;
+    width: 13rem;
+    right: ;
+    top: -60px;
+  }
+
+}
